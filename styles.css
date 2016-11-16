@@ -1,0 +1,44 @@
+p {
+  border-bottom: 1px solid red;
+}
+
+.kermit {
+  border: 2px solid green;
+}
+
+#main-div-1 {
+padding: 10%;
+}
+
+#main-div-2 .kermit {
+  border: 2px dotted purple;
+}
+
+#main-div-2 p {
+  background-color: orange;
+}
+
+h2 ~ p {
+
+}
+
+
+
+
+
+
+li-1 {
+  font-size: 30px;
+}
+
+li-2 {
+  font-weight: bolder;
+}
+
+li-3 {
+  text-transform: uppercase;
+}
+
+#mystery-ul li:nth-child(2n+1) {
+  font-family: 'Mystery Quest', cursive;
+}
