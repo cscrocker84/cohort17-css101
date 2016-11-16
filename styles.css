@@ -14,11 +14,21 @@ padding: 10%;
   border: 2px dotted purple;
 }
 
-#main-div-2 p {
+#main-div-3 {
+  background-color: lightblue;
+}
+
+#main-div-3 p {
   background-color: orange;
 }
 
+.center-me {
+  text-align: center;
+}
 
+.slate-gray {
+  background-color: #112-138-144;
+}
 
 
 
@@ -56,5 +66,9 @@ input {
 }
 
 input:invalid {
+  background-color: red;
+}
 
+input:valid {
+  background-color: green;
 }
