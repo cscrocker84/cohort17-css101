@@ -18,27 +18,43 @@ padding: 10%;
   background-color: orange;
 }
 
-h2 ~ p {
-
-}
 
 
 
 
 
 
-li-1 {
+
+#li-1 {
   font-size: 30px;
 }
 
-li-2 {
+#li-2 {
   font-weight: bolder;
 }
 
-li-3 {
+#li-3 {
   text-transform: uppercase;
 }
 
 #mystery-ul li:nth-child(2n+1) {
   font-family: 'Mystery Quest', cursive;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+#flex-kermit {
+display: flex;
+flex-wrap: wrap;
+}
+
+input {
+  background-color: yellow;
+}
+
+input:invalid {
+
 }
